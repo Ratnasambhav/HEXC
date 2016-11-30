@@ -1,0 +1,25 @@
+body{
+  background: url("pic2.jpg") no-repeat center center fixed;
+  background-color: black;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.message-list{
+  height: 600px;
+  overflow-y: auto;
+  border-radius: 0.5em;
+}
+
+.user-list{
+  height: 600px;
+  overflow-y: auto;
+}
+
+.message-panel{
+  border-radius: 1.2em;
+  padding: 1em;
+  background-color: rgba(255, 255, 255, 0.5);
+}

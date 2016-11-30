@@ -1,0 +1,13 @@
+body{
+  background-image: url("pic2.jpg");
+  background-color: black;
+  background-size: cover;
+}
+
+.main{
+  margin: 1.5em;
+}
+
+.add-chatroom-feild{
+  border-radius: 5px;
+}
