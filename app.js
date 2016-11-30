@@ -17,4 +17,4 @@ document.body.onkeyup = function(e){
   }
 };
 
-document.getElementById("change").addEventListener("click", setAndPrintColor);
+//document.getElementById("change").addEventListener("click", setAndPrintColor);
