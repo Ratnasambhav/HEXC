@@ -11,10 +11,12 @@ function setAndPrintColor(){
   setColor(color);
   document.getElementById("hex").innerHTML = color;
 }
-document.body.onkeyup = function(e){
-  if(e.keyCode == 32){
-    setAndPrintColor();
-  }
-};
 
-//document.getElementById("change").addEventListener("click", setAndPrintColor);
+$(function() {
+   $(window).keypress(function(e) {
+       var ev = e || window.event;
+       if(ev.keyCode == 32){
+         setAndPrintColor();
+       }
+   });
+});
