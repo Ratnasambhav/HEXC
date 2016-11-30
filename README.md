@@ -1,0 +1,2 @@
+# HEXC
+Hex color generator.
