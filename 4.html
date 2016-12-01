@@ -6,19 +6,49 @@
     <link rel="stylesheet" , type="text/css" href="https://fonts.googleapis.com/css?family=PT+Mono|Teko:300" rel="stylesheet" />
     <link rel="stylesheet" , type="text/css" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
     <link rel="stylesheet" , type="text/css" href="materialize/css/materialize.min.css" />
+    <script async defer src="https://buttons.github.io/buttons.js"></script>
 </head>
 
-<script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+<script type="text/javascript" src="materialize/js/jquery-3.1.1.min.js"></script>
 <script src="app.js"></script>
 <script src="materialize/js/materialize.min.js"></script>
 
 <body>
-    <div id="div1">
+    <div class="row">
+        <div class="col s6" id="div1">
+            <span class="chip hex-code" id="hex1">#ffffff</span>
+        </div>
+        <div class="col s6" id="div2">
+            <span class="chip hex-code" id="hex2">#ffffff</span>
+        </div>
+        <div class="col s6" id="div3">
+            <span class="chip hex-code" id="hex3">#ffffff</span>
+        </div>
+        <div class="col s6" id="div4">
+            <span class="chip hex-code" id="hex4">#ffffff</span>
+        </div>
     </div>
-    <div id="div2">
-    </div>
-    <div id="div3">
-    </div>
-    <div id="div4">
-    </div>
+
+    <footer class="page-footer black">
+        <div class="container">
+            <div class="row">
+                <div class="col l6 s12">
+                    <h5 class="title yellow-text">HEX COLOR GENERATOR</h5>
+                    <p class="yellow-text">Hit spacebar to have some fun</p>
+                </div>
+                <div class="col l4 offset-l2 s12">
+                    <ul>
+                        <li>
+                          <!-- Place this tag where you want the button to render. -->
+                          <a class="github-button" href="https://github.com/Ratnasambhav/HEXC" data-style="mega" data-count-href="/Ratnasambhav/HEXC/stargazers" data-count-api="/repos/Ratnasambhav/HEXC#stargazers_count" data-count-aria-label="# stargazers on GitHub" aria-label="Star Ratnasambhav/HEXC on GitHub">Star</a>
+                        </li>
+                        <br />
+                        <li>
+                          <span class="yellow-text">Created by Ratnasambhav Priyadarshi</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
 </body>
