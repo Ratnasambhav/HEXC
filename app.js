@@ -16,7 +16,11 @@ $(function() {
    $(window).keypress(function(e) {
        var ev = e || window.event;
        if(ev.keyCode == 32){
-         setAndPrintColor();
+        //  setAndPrintColor();
+        $('#div1').css('background-color', getColor());
+        $('#div2').css('background-color', getColor());
+        $('#div3').css('background-color', getColor());
+        $('#div4').css('background-color', getColor());
        }
    });
 });
