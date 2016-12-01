@@ -1,10 +1,46 @@
-body{
-  transition: all .5s ease;
+html, body {
+    background-color: black;
+    font-family: 'PT Mono', monospace;
 }
-.title{
-  font-size: 550%;
-  font-family: 'Teko', sans-serif;
+
+#div1 {
+    background-color: #DDD;
+    width: 50%;
+    height: 50%;
+    border-right: solid 0.15em;
+    border-bottom: solid 0.15em;
 }
-.card-title{
-  font-family: 'PT Mono', monospace;
+
+#div2 {
+    background-color: #AAA;
+    width: 50%;
+    height: 50%;
+    border-left: solid 0.15em;
+    border-bottom: solid 0.15em;
+}
+
+#div3 {
+    background-color: #777;
+    width: 50%;
+    height: 50%;
+    border-right: solid 0.15em;
+    border-top: solid 0.15em;
+}
+
+#div4 {
+    background-color: #444;
+    width: 50%;
+    height: 50%;
+    border-left: solid 0.15em;
+    border-top: solid 0.15em;
+}
+
+.hex-code {
+    font-size: 150% !important;
+    margin-top: 1em;
+}
+
+.title {
+    font-family: 'Teko', sans-serif;
+    font-size: 4em;
 }
